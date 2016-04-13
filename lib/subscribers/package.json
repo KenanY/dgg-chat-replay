@@ -1,0 +1,10 @@
+{
+  "name": "subscribers",
+  "version": "1.0.0",
+  "private": true,
+  "files": ["index.json"],
+  "dependencies": {
+    "json-stable-stringify": "^1.0.1",
+    "lodash.assign": "^4.0.7"
+  }
+}
