@@ -1,4 +1,8 @@
 {
+  "Acherus": [
+    "subscriber",
+    "flair1"
+  ],
   "Ageudum": [
     "subscriber",
     "flair8"
@@ -34,6 +38,10 @@
     "subscriber",
     "flair1"
   ],
+  "Blue_partyhat": [
+    "subscriber",
+    "flair3"
+  ],
   "Bot": [
     "protected",
     "bot"
@@ -41,6 +49,10 @@
   "BowlOfOrange": [
     "subscriber",
     "flair9"
+  ],
+  "Brandon": [
+    "subscriber",
+    "flair8"
   ],
   "Brollebol": [
     "subscriber"
@@ -153,6 +165,10 @@
     "subscriber"
   ],
   "ILiedAboutCake": [
+    "subscriber",
+    "flair5"
+  ],
+  "Jewel_wheeled": [
     "subscriber",
     "flair5"
   ],
@@ -374,6 +390,10 @@
     "subscriber",
     "flair9"
   ],
+  "Str1keeag1e": [
+    "subscriber",
+    "flair9"
+  ],
   "Strangefield": [
     "subscriber",
     "flair3"
@@ -421,6 +441,9 @@
     "subscriber",
     "flair1"
   ],
+  "Vaan99": [
+    "subscriber"
+  ],
   "Winwirzar": [
     "subscriber",
     "flair1"
@@ -430,6 +453,9 @@
     "flair9"
   ],
   "Xitac": [
+    "subscriber"
+  ],
+  "XxSpyKe": [
     "subscriber"
   ],
   "Zeefrag": [
@@ -448,6 +474,9 @@
   "beyirr": [
     "subscriber",
     "flair9"
+  ],
+  "craven": [
+    "subscriber"
   ],
   "crunkDealer": [
     "subscriber"
@@ -504,6 +533,9 @@
   "obviousCake": [
     "subscriber"
   ],
+  "oni7sch1": [
+    "subscriber"
+  ],
   "peckerlildevil": [
     "flair7"
   ],
@@ -518,6 +550,10 @@
   "ryanxwonbin": [
     "subscriber",
     "flair1"
+  ],
+  "spede": [
+    "subscriber",
+    "flair4"
   ],
   "stin1": [
     "subscriber",
