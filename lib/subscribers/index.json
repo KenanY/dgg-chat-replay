@@ -114,7 +114,8 @@
   ],
   "Eclypse": [
     "subscriber",
-    "flair1"
+    "flair1",
+    "flair5"
   ],
   "EqualThree": [
     "subscriber",
@@ -320,6 +321,10 @@
     "subscriber",
     "flair9"
   ],
+  "Raulington": [
+    "subscriber",
+    "flair1"
+  ],
   "Reinhart": [
     "subscriber"
   ],
@@ -461,6 +466,10 @@
   "Zeefrag": [
     "subscriber",
     "flair9"
+  ],
+  "_RENEGADE": [
+    "subscriber",
+    "flair3"
   ],
   "aberusthezergbug": [
     "subscriber",
