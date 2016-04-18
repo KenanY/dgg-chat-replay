@@ -58,49 +58,33 @@ function submit() {
       const updatedChat = chatLines.map((data) => {
         let content = data.message;
 
-        if (linkify.test(content)) {
-          const matches = linkify.match(content);
+        if (linkify.test(content) || matchEmotes(content).length) {
+          const tokens = content.split(' ');
           const result = [];
-          let last = 0;
-          matches.forEach((match) => {
-            if (last < match.index) {
-              result.push(content.slice(last, match.index));
+
+          tokens.forEach((token) => {
+            if (linkify.test(token)) {
+              const matches = linkify.match(token);
+              matches.forEach((match) => {
+                result.push(yo`
+                  <a target="_blank" href="${he.escape(match.url)}">
+                    ${he.escape(match.text)}
+                  </a>
+                `);
+              });
             }
-
-            result.push(yo`
-              <a target="_blank" href="${he.escape(match.url)}">
-                ${he.escape(match.text)}
-              </a>
-            `);
-
-            last = match.lastIndex;
-          });
-
-          if (last < content.length) {
-            result.push(content.slice(last));
-          }
-
-          content = yo`<span class="msg">${result}</span>`;
-        }
-        else if (matchEmotes(content).length) {
-          const matches = matchEmotes(content);
-          const result = [];
-          let last = 0;
-          matches.forEach((match) => {
-            if (last < match.index) {
-              result.push(content.slice(last, match.index));
+            else if (matchEmotes(token).length) {
+              const matches = matchEmotes(token);
+              matches.forEach((match) => {
+                result.push(yo`
+                  <div class="chat-emote chat-emote-${match.emote}"></div>
+                `);
+              });
             }
-
-            result.push(yo`
-              <div class="chat-emote chat-emote-${match.emote}"></div>
-            `);
-
-            last = match.lastIndex + 1;
+            else {
+              result.push(token + ' ');
+            }
           });
-
-          if (last < content.length) {
-            result.push(content.slice(last));
-          }
 
           content = yo`<span class="msg">${result}</span>`;
         }
