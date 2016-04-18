@@ -34,6 +34,10 @@
   "Barcode0": [
     "subscriber"
   ],
+  "Bbbrandonb": [
+    "subscriber",
+    "flair3"
+  ],
   "Biagreenmist": [
     "subscriber",
     "flair1"
@@ -144,6 +148,10 @@
   "Gigadrain": [
     "subscriber",
     "flair1"
+  ],
+  "Goodguy": [
+    "subscriber",
+    "flair9"
   ],
   "Haha": [
     "subscriber",
@@ -343,6 +351,9 @@
   "Salalancer": [
     "subscriber"
   ],
+  "Satou": [
+    "subscriber"
+  ],
   "Saucy": [
     "subscriber",
     "flair8"
@@ -379,6 +390,11 @@
   ],
   "SirSteam": [
     "subscriber"
+  ],
+  "Slash12": [
+    "subscriber",
+    "flair8",
+    "flair9"
   ],
   "SoConfuse": [
     "subscriber"
@@ -457,6 +473,10 @@
     "subscriber",
     "flair9"
   ],
+  "XinZhaoMid": [
+    "subscriber",
+    "flair9"
+  ],
   "Xitac": [
     "subscriber"
   ],
@@ -473,12 +493,18 @@
   ],
   "aberusthezergbug": [
     "subscriber",
-    "flair8"
+    "flair1"
   ],
   "appolez": [
     "subscriber",
     "flair5",
     "flair9"
+  ],
+  "bahartin": [
+    "subscriber"
+  ],
+  "bakingbad": [
+    "subscriber"
   ],
   "beyirr": [
     "subscriber",
@@ -577,6 +603,9 @@
     "protected"
   ],
   "technicallytexas": [
+    "subscriber"
+  ],
+  "whitealien": [
     "subscriber"
   ],
   "woopboop": [
