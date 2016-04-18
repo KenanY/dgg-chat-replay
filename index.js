@@ -86,10 +86,14 @@ function submit() {
             }
           });
 
-          content = yo`<span class="msg">${result}</span>`;
+          content = yo`<span class="msg ${content.indexOf('>') === 0
+            ? 'greentext'
+            : ''}">${result}</span>`;
         }
         else {
-          content = yo`<span class="msg">${content}</span>`;
+          content = yo`<span class="msg ${content.indexOf('>') === 0
+            ? 'greentext'
+            : ''}">${content}</span>`;
         }
 
         return yo`
