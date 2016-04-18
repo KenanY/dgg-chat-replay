@@ -7,6 +7,11 @@
     "subscriber",
     "flair8"
   ],
+  "Aigooo": [
+    "subscriber",
+    "flair1",
+    "flair9"
+  ],
   "Akclone": [
     "subscriber",
     "flair1"
@@ -20,6 +25,9 @@
   "Aphetorus": [
     "subscriber",
     "flair9"
+  ],
+  "Arcaj": [
+    "subscriber"
   ],
   "Arkzats": [
     "subscriber"
@@ -46,6 +54,10 @@
     "subscriber",
     "flair3"
   ],
+  "Bluepancho": [
+    "subscriber",
+    "flair1"
+  ],
   "Bot": [
     "protected",
     "bot"
@@ -61,6 +73,12 @@
   "Brollebol": [
     "subscriber"
   ],
+  "Brosal": [
+    "subscriber"
+  ],
+  "Bs403": [
+    "subscriber"
+  ],
   "C1ox": [
     "subscriber",
     "flair9"
@@ -69,15 +87,34 @@
     "protected",
     "moderator"
   ],
+  "CherryPoppinsOG": [
+    "subscriber"
+  ],
+  "Citeh": [
+    "subscriber"
+  ],
   "Comfy": [
     "subscriber"
   ],
   "Cracksi": [
+    "subscriber",
     "flair4",
     "flair5"
   ],
+  "Cryoliss": [
+    "subscriber",
+    "flair8"
+  ],
+  "CyanideMuffin": [
+    "subscriber"
+  ],
   "DHD_EVE": [
     "flair7"
+  ],
+  "Dasboot_097": [
+    "subscriber",
+    "flair3",
+    "flair9"
   ],
   "Dashh": [
     "subscriber",
@@ -125,6 +162,10 @@
     "subscriber",
     "flair9"
   ],
+  "Ezbern": [
+    "subscriber",
+    "flair8"
+  ],
   "FFFFlee": [
     "subscriber"
   ],
@@ -160,6 +201,9 @@
   "Hand_of_Ruk": [
     "subscriber"
   ],
+  "Handfoot": [
+    "subscriber"
+  ],
   "Hazzerd": [
     "subscriber"
   ],
@@ -181,6 +225,11 @@
     "subscriber",
     "flair5"
   ],
+  "Jim": [
+    "subscriber",
+    "flair2",
+    "flair4"
+  ],
   "JoLanTru": [
     "subscriber"
   ],
@@ -195,6 +244,9 @@
     "subscriber",
     "flair9"
   ],
+  "KartoffelKopf": [
+    "subscriber"
+  ],
   "Keache": [
     "subscriber",
     "flair9"
@@ -204,6 +256,10 @@
   ],
   "KeyokeZerg": [
     "subscriber"
+  ],
+  "Kinetick42": [
+    "subscriber",
+    "flair1"
   ],
   "Kregoth": [
     "subscriber",
@@ -235,6 +291,9 @@
   "LuccanCH": [
     "subscriber"
   ],
+  "LukaTheTrickster": [
+    "subscriber"
+  ],
   "Magmaniac": [
     "subscriber"
   ],
@@ -246,6 +305,10 @@
     "subscriber",
     "flair1",
     "flair5"
+  ],
+  "Mardant": [
+    "subscriber",
+    "flair9"
   ],
   "Mavren_": [
     "subscriber"
@@ -262,6 +325,9 @@
     "subscriber",
     "flair3",
     "flair9"
+  ],
+  "MooFish": [
+    "subscriber"
   ],
   "MrMouton": [
     "subscriber",
@@ -314,6 +380,13 @@
   "Pragmatic03": [
     "subscriber"
   ],
+  "Pri": [
+    "subscriber"
+  ],
+  "Probronzeplayer": [
+    "subscriber",
+    "flair9"
+  ],
   "PthaloBlue": [
     "subscriber",
     "flair1"
@@ -336,6 +409,9 @@
   "Reinhart": [
     "subscriber"
   ],
+  "Reveshi": [
+    "subscriber"
+  ],
   "RightToBearArmsLOL": [
     "subscriber",
     "moderator",
@@ -354,6 +430,10 @@
   "Satou": [
     "subscriber"
   ],
+  "SattyIce": [
+    "subscriber",
+    "flair9"
+  ],
   "Saucy": [
     "subscriber",
     "flair8"
@@ -367,7 +447,8 @@
     "subscriber"
   ],
   "Selfowned": [
-    "subscriber"
+    "subscriber",
+    "flair9"
   ],
   "SevenxMinutes": [
     "subscriber",
@@ -394,6 +475,10 @@
   "Slash12": [
     "subscriber",
     "flair8",
+    "flair9"
+  ],
+  "Slymanbran": [
+    "subscriber",
     "flair9"
   ],
   "SoConfuse": [
@@ -441,6 +526,11 @@
     "flair1",
     "flair7"
   ],
+  "TexDisorder": [
+    "subscriber",
+    "flair8",
+    "flair9"
+  ],
   "Th0massn": [
     "subscriber"
   ],
@@ -458,6 +548,12 @@
   "Theirieone": [
     "subscriber"
   ],
+  "TigerLoli": [
+    "subscriber"
+  ],
+  "Timson15": [
+    "subscriber"
+  ],
   "UTLSpea": [
     "subscriber",
     "flair1"
@@ -468,6 +564,10 @@
   "Winwirzar": [
     "subscriber",
     "flair1"
+  ],
+  "WixeS": [
+    "subscriber",
+    "flair9"
   ],
   "WoIRa": [
     "subscriber",
@@ -483,6 +583,10 @@
   "XxSpyKe": [
     "subscriber"
   ],
+  "Yeno": [
+    "subscriber",
+    "flair1"
+  ],
   "Zeefrag": [
     "subscriber",
     "flair9"
@@ -494,6 +598,9 @@
   "aberusthezergbug": [
     "subscriber",
     "flair1"
+  ],
+  "alabasta": [
+    "subscriber"
   ],
   "appolez": [
     "subscriber",
@@ -509,6 +616,9 @@
   "beyirr": [
     "subscriber",
     "flair9"
+  ],
+  "chrisdok": [
+    "subscriber"
   ],
   "craven": [
     "subscriber"
@@ -552,6 +662,10 @@
   "king_of_suede": [
     "subscriber",
     "flair3"
+  ],
+  "loho21": [
+    "subscriber",
+    "flair9"
   ],
   "loldamar": [
     "subscriber",
@@ -608,8 +722,18 @@
   "whitealien": [
     "subscriber"
   ],
+  "wolfsquad": [
+    "subscriber",
+    "flair8"
+  ],
   "woopboop": [
     "protected"
+  ],
+  "wurzGG": [
+    "subscriber"
+  ],
+  "xuptupahc44": [
+    "subscriber"
   ],
   "yardhin": [
     "subscriber",
