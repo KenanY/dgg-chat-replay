@@ -15,6 +15,24 @@ const overrustle = require('overrustle-logs');
 // should revisit the usefulness of this
 linkify.tlds(tlds);
 
+const flairs = {
+  protected: 'protected',
+  subscriber: 'subscriber',
+  flair9: 'minitwitch',
+  flair1: 'subscribert2',
+  flair3: 'subscribert3',
+  flair8: 'subscribert4',
+  vip: 'vip',
+  moderator: 'moderator',
+  admin: 'admin',
+  bot: 'bot',
+  flair2: 'notable',
+  flair4: 'trusted',
+  flair5: 'contributor',
+  flair6: 'compchallenge',
+  flair7: 'evenotable'
+};
+
 // get absolute millisecond difference between message-nodes a and b
 function diffNodeTimes(a, b) {
   return Math.abs(moment.utc(a.data.timestamp)
@@ -96,10 +114,21 @@ function submit() {
             : ''}">${content}</span>`;
         }
 
+        const userFlairs = subscribers[data.user];
+
         return yo`
           <div class="user-msg">
-            <a class="user ${subscribers[data.user]
-              ? subscribers[data.user].join(' ')
+            ${userFlairs ? userFlairs.map((flair) => {
+              // do not render T1 subscriber flair if user has higher tier
+              // subscription
+              if (flair !== 'subscriber' || (flair === 'subscriber'
+                && userFlairs.indexOf('flair1') < 0
+                && userFlairs.indexOf('flair3') < 0
+                && userFlairs.indexOf('flair8') < 0))
+              return yo`<i class="icon-${flairs[flair]}"></i>`;
+            }) : ''}
+            <a class="user ${userFlairs
+              ? userFlairs.join(' ')
               : ''}" href="#">${data.user}</a>:
             ${content}
           </div>
