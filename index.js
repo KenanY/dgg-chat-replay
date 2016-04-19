@@ -119,9 +119,15 @@ function submit() {
         return yo`
           <div class="user-msg">
             ${userFlairs ? userFlairs.map((flair) => {
-              // do not render T1 subscriber flair if user has higher tier
-              // subscription
-              if (flair !== 'subscriber' || (flair === 'subscriber'
+
+              // Add this flair icon if and only if one of the following is
+              // true:
+              //   1. flair is not one of: subscriber, moderator, protected
+              //   2. flair is subscriber AND is a T1 subscriber
+              if ((flair !== 'subscriber'
+                && flair !== 'moderator'
+                && flair !== 'protected')
+                || (flair === 'subscriber'
                 && userFlairs.indexOf('flair1') < 0
                 && userFlairs.indexOf('flair3') < 0
                 && userFlairs.indexOf('flair8') < 0))
