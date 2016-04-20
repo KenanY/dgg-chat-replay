@@ -52,8 +52,7 @@ function submit() {
 
   // definitely can do better validation here along with actually displaying an
   // error to the user rather than to the console
-  if (!input.value.length || input.value.length !== 10
-    || !moment(input.value).isValid()) {
+  if (!input.value.length || !moment(input.value).isValid()) {
     console.log('invalid date');
     return;
   }
@@ -65,8 +64,12 @@ function submit() {
 
   overrustle({
     channel: 'Destinygg',
-    date: input.value
+    date: moment.utc(input.value).format('YYYY-MM-DD')
   }).on('data', (data) => {
+    if (moment.utc(data.timestamp).isBefore(moment.utc(input.value))) {
+      return;
+    }
+
     const node = new LinkedList.Node(data);
     list.append(node);
   }).on('end', () => {
@@ -164,7 +167,7 @@ function submit() {
 
 // this should only contain the input element
 const input = yo`
-  <input type="text" placeholder="YYYY-MM-DD" class="input-sm form-control">
+  <input type="text" placeholder="YYYY-MM-DD HH:mm:ss" class="input-sm form-control">
 `;
 
 const chat = yo`
