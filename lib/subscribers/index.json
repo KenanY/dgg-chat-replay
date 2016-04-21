@@ -39,6 +39,9 @@
   "AxiK_": [
     "subscriber"
   ],
+  "BURSTERDOMINATES": [
+    "subscriber"
+  ],
   "Barcode0": [
     "subscriber"
   ],
@@ -57,6 +60,11 @@
   "Bluepancho": [
     "subscriber",
     "flair1"
+  ],
+  "BombJin": [
+    "subscriber",
+    "flair1",
+    "flair5"
   ],
   "Bot": [
     "protected",
@@ -91,7 +99,8 @@
     "subscriber"
   ],
   "Citeh": [
-    "subscriber"
+    "subscriber",
+    "flair1"
   ],
   "Comfy": [
     "subscriber"
@@ -136,6 +145,10 @@
     "admin",
     "flair9"
   ],
+  "Doge": [
+    "subscriber",
+    "flair3"
+  ],
   "Domebuddy": [
     "subscriber",
     "flair1"
@@ -143,6 +156,9 @@
   "Dunebug": [
     "subscriber",
     "flair9"
+  ],
+  "Durzopanas": [
+    "subscriber"
   ],
   "Dusk": [
     "subscriber",
@@ -155,7 +171,6 @@
   ],
   "Eclypse": [
     "subscriber",
-    "flair1",
     "flair5"
   ],
   "EqualThree": [
@@ -261,6 +276,9 @@
     "subscriber",
     "flair1"
   ],
+  "KingLancelot": [
+    "subscriber"
+  ],
   "Kregoth": [
     "subscriber",
     "flair9"
@@ -334,6 +352,9 @@
     "flair2",
     "flair8"
   ],
+  "NaDaCure": [
+    "subscriber"
+  ],
   "NewSalsa": [
     "subscriber",
     "vip",
@@ -343,6 +364,14 @@
   "Noobity": [
     "subscriber",
     "flair9"
+  ],
+  "OkFloorIt": [
+    "subscriber",
+    "flair8"
+  ],
+  "Omgyounosee1": [
+    "subscriber",
+    "flair1"
   ],
   "Onecron": [
     "subscriber"
@@ -377,6 +406,9 @@
   "PopulistMeat": [
     "subscriber"
   ],
+  "Postal_service": [
+    "subscriber"
+  ],
   "Pragmatic03": [
     "subscriber"
   ],
@@ -394,6 +426,9 @@
   "PurpleCow": [
     "subscriber",
     "flair1"
+  ],
+  "Randallthecloud": [
+    "subscriber"
   ],
   "RandomFerret": [
     "subscriber"
@@ -558,7 +593,13 @@
     "subscriber",
     "flair1"
   ],
+  "Umboday": [
+    "subscriber"
+  ],
   "Vaan99": [
+    "subscriber"
+  ],
+  "WaterLord0": [
     "subscriber"
   ],
   "Winwirzar": [
@@ -572,6 +613,9 @@
   "WoIRa": [
     "subscriber",
     "flair9"
+  ],
+  "Wurstinator": [
+    "subscriber"
   ],
   "XinZhaoMid": [
     "subscriber",
@@ -688,6 +732,9 @@
   "peckerlildevil": [
     "flair7"
   ],
+  "picklemancer": [
+    "subscriber"
+  ],
   "reeeeeeeee": [
     "subscriber",
     "flair1"
@@ -700,9 +747,15 @@
     "subscriber",
     "flair1"
   ],
+  "slicklikedat": [
+    "subscriber"
+  ],
   "spede": [
     "subscriber",
     "flair4"
+  ],
+  "stank": [
+    "subscriber"
   ],
   "stin1": [
     "subscriber",
