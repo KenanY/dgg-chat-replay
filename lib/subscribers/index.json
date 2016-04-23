@@ -3,6 +3,10 @@
     "subscriber",
     "flair1"
   ],
+  "Adler": [
+    "subscriber",
+    "flair9"
+  ],
   "Ageudum": [
     "subscriber",
     "flair8"
@@ -114,6 +118,9 @@
     "subscriber",
     "flair8"
   ],
+  "Cu4u": [
+    "subscriber"
+  ],
   "CyanideMuffin": [
     "subscriber"
   ],
@@ -139,11 +146,19 @@
   "Derugo": [
     "subscriber"
   ],
+  "Derver": [
+    "subscriber",
+    "flair4",
+    "flair5"
+  ],
   "Destiny": [
     "protected",
     "subscriber",
     "admin",
     "flair9"
+  ],
+  "Dicedlemming": [
+    "subscriber"
   ],
   "Doge": [
     "subscriber",
@@ -164,6 +179,9 @@
     "subscriber",
     "flair4",
     "flair9"
+  ],
+  "Dyceptius": [
+    "subscriber"
   ],
   "Eatmagnetic": [
     "subscriber",
@@ -192,7 +210,6 @@
   ],
   "FinalFury": [
     "subscriber",
-    "flair3",
     "flair9"
   ],
   "Firestarthe": [
@@ -220,6 +237,9 @@
     "subscriber"
   ],
   "Hazzerd": [
+    "subscriber"
+  ],
+  "Heavensync": [
     "subscriber"
   ],
   "Hillshire": [
@@ -347,6 +367,9 @@
   "MooFish": [
     "subscriber"
   ],
+  "Motatopato": [
+    "subscriber"
+  ],
   "MrMouton": [
     "subscriber",
     "flair2",
@@ -425,7 +448,8 @@
   ],
   "PurpleCow": [
     "subscriber",
-    "flair1"
+    "flair1",
+    "flair4"
   ],
   "Randallthecloud": [
     "subscriber"
@@ -461,6 +485,10 @@
   ],
   "Salalancer": [
     "subscriber"
+  ],
+  "Salamanca": [
+    "subscriber",
+    "flair9"
   ],
   "Satou": [
     "subscriber"
@@ -527,7 +555,14 @@
     "subscriber",
     "flair9"
   ],
+  "Stefono": [
+    "subscriber"
+  ],
   "StiFahrir": [
+    "subscriber",
+    "flair9"
+  ],
+  "StoopidMonkey": [
     "subscriber",
     "flair9"
   ],
@@ -670,11 +705,18 @@
   "crunkDealer": [
     "subscriber"
   ],
+  "dbc": [
+    "flair5"
+  ],
   "dezb": [
     "subscriber"
   ],
   "dharmatest": [
     "flair4"
+  ],
+  "esportsBatman": [
+    "subscriber",
+    "flair3"
   ],
   "fallimento": [
     "subscriber",
