@@ -7,6 +7,7 @@ const linkify = require('linkify-it')();
 const moment = require('moment');
 const tlds = require('tlds');
 const yo = require('yo-yo');
+const random = require('lodash.random');
 
 const matchEmotes = require('match-emotes');
 const subscribers = require('subscribers');
@@ -35,11 +36,37 @@ const flairs = {
 
 // get absolute millisecond difference between message-nodes a and b
 function diffNodeTimes(a, b) {
-  return Math.abs(moment.utc(a.data.timestamp)
+  let diff = Math.abs(moment.utc(a.data.timestamp)
     .diff(moment.utc(b.data.timestamp), 'milliseconds', true));
+
+  // `overrustlelogs.net` only records timestamps at seconds precision, so
+  // `diff` will be 0 if two messages occurred within the same UTC second, and
+  // it will be 1000ms even if one message occurs just before a second ends and
+  // the next message is at the beginning of the new second. Thus, it is
+  // impossible to get the exact millisecond difference between two messages.
+  // Next best thing might be to just display each message at the average rate
+  // of messages per second for the given second. If two messages span two
+  // seconds, we just take the average of the two rates.
+  if (diff === 0) {
+    diff = 1000 / msgCount[moment.utc(a.data.timestamp).format()];
+  }
+  else if (diff === 1000) {
+    diff = 2000 / (msgCount[moment.utc(a.data.timestamp).format()]
+      + msgCount[moment.utc(b.data.timestamp).format()]);
+  }
+  else {
+    diff = random(diff / 1000, diff + 999, true);
+  }
+
+  return diff;
 }
 
 const chatLines = [];
+
+// Keeps track of the number of messages sent in a given second. This is used
+// for displaying messages at a rate which approximately mirrors that of live
+// chat. Keys are ISO-8601 timestamps and values are integers.
+const msgCount = {};
 
 function submit() {
   // clear any previous messages
@@ -69,6 +96,12 @@ function submit() {
     if (moment.utc(data.timestamp).isBefore(moment.utc(input.value))) {
       return;
     }
+
+    const iso = moment.utc(data.timestamp).format();
+    if (!msgCount[iso]) {
+      msgCount[iso] = 0;
+    }
+    msgCount[iso]++;
 
     const node = new LinkedList.Node(data);
     list.append(node);
