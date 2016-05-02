@@ -2,37 +2,14 @@
 
 const LinkedList = require('circular-list');
 const document = require('global/document');
-const he = require('he');
-const linkify = require('linkify-it')();
 const moment = require('moment');
-const tlds = require('tlds');
 const yo = require('yo-yo');
 const random = require('lodash.random');
 
 const matchEmotes = require('match-emotes');
-const subscribers = require('subscribers');
 const overrustle = require('overrustle-logs');
-
-// should revisit the usefulness of this
-linkify.tlds(tlds);
-
-const flairs = {
-  protected: 'protected',
-  subscriber: 'subscriber',
-  flair9: 'minitwitch',
-  flair1: 'subscribert2',
-  flair3: 'subscribert3',
-  flair8: 'subscribert4',
-  vip: 'vip',
-  moderator: 'moderator',
-  admin: 'admin',
-  bot: 'bot',
-  flair2: 'notable',
-  flair4: 'trusted',
-  flair5: 'contributor',
-  flair6: 'compchallenge',
-  flair7: 'evenotable'
-};
+const chatmsg = require('./lib/chatmsg');
+const usermsg = require('./lib/usermsg');
 
 // get absolute millisecond difference between message-nodes a and b
 function diffNodeTimes(a, b) {
@@ -109,72 +86,40 @@ function submit() {
     function traverse(curr) {
       chatLines.push(curr.data);
 
-      const updatedChat = chatLines.map((data) => {
-        let content = data.message;
+      const combo = {emote: null, count: 0, index: null};
+      const updatedChat = [];
 
-        if (linkify.test(content) || matchEmotes(content).length) {
-          const tokens = content.split(' ');
-          const result = [];
+      chatLines.forEach((data, i) => {
+        const content = data.message.trim();
 
-          tokens.forEach((token) => {
-            if (linkify.test(token)) {
-              const matches = linkify.match(token);
-              matches.forEach((match) => {
-                result.push(yo`
-                  <a target="_blank" href="${he.escape(match.url)}">
-                    ${he.escape(match.text)}
-                  </a>
-                `);
-              });
-            }
-            else if (matchEmotes(token).length) {
-              const matches = matchEmotes(token);
-              matches.forEach((match) => {
-                result.push(yo`
-                  <div class="chat-emote chat-emote-${match.emote}"></div>
-                `);
-              });
-            }
-            else {
-              result.push(token + ' ');
-            }
-          });
+        // if message contains only an emote
+        if (matchEmotes.test(content)) {
 
-          content = yo`<span class="msg ${content.indexOf('>') === 0
-            ? 'greentext'
-            : ''}">${result}</span>`;
+          // see if emote is continuing a combo
+          if (content === combo.emote) {
+            combo.count++;
+            updatedChat[combo.index] = chatmsg(combo);
+            return;
+          }
+
+          // otherwise have it begin a possible combo
+          else {
+            combo.emote = content;
+            combo.count = 1;
+            combo.index = i;
+          }
         }
+
+        // end any existing combo
         else {
-          content = yo`<span class="msg ${content.indexOf('>') === 0
-            ? 'greentext'
-            : ''}">${content}</span>`;
+          combo.emote = null;
+          combo.count = 0;
+          combo.index = null;
         }
 
-        const userFlairs = subscribers[data.user];
-
-        return yo`
-          <div class="user-msg">
-            ${userFlairs ? userFlairs.map((flair) => {
-
-              // Add this flair icon if and only if one of the following is
-              // true:
-              //   1. flair is not one of: subscriber, moderator, protected
-              //   2. flair is subscriber AND is a T1 subscriber
-              if ((flair !== 'subscriber'
-                && flair !== 'moderator'
-                && flair !== 'protected')
-                || (flair === 'subscriber'
-                && userFlairs.indexOf('flair1') < 0
-                && userFlairs.indexOf('flair3') < 0
-                && userFlairs.indexOf('flair8') < 0))
-              return yo`<i class="icon-${flairs[flair]}"></i>`;
-            }) : ''}
-            <a class="user ${userFlairs
-              ? userFlairs.join(' ')
-              : ''}" href="#">${data.user}</a>:
-            ${content}
-          </div>
-        `;
+        // Either this message is a single emote, but not continuing a combo, or
+        // it is not an emote message. Render it as a regular user message.
+        updatedChat.push(usermsg(data));
       });
 
       yo.update(chat, yo`
