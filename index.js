@@ -38,7 +38,7 @@ function diffNodeTimes(a, b) {
   return diff;
 }
 
-const chatLines = [];
+var chatLines = [];
 
 // Keeps track of the number of messages sent in a given second. This is used
 // for displaying messages at a rate which approximately mirrors that of live
@@ -85,6 +85,7 @@ function submit() {
   }).on('end', () => {
     function traverse(curr) {
       chatLines.push(curr.data);
+      chatLines.slice(-500);
 
       const combo = {emote: null, count: 0, index: null};
       const updatedChat = [];
