@@ -770,6 +770,9 @@
     "subscriber",
     "flair9"
   ],
+  "Prophet": [
+    "subscriber"
+  ],
   "PthaloBlue": [
     "subscriber",
     "flair1"
