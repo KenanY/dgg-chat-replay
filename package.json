@@ -12,7 +12,7 @@
     "circular-list": "^0.0.2",
     "global": "^4.3.0",
     "he": "^1.0.0",
-    "linkify-it": "^1.2.0",
+    "linkify-it": "^2.0.0",
     "lodash.random": "^3.1.4",
     "match-emotes": "file:lib/match-emotes",
     "moment": "^2.12.0",
