@@ -31,7 +31,8 @@
     "subscriber"
   ],
   "Alex4": [
-    "subscriber"
+    "subscriber",
+    "flair3"
   ],
   "Apex37": [
     "subscriber"
@@ -61,8 +62,7 @@
     "flair1"
   ],
   "Assyrianlegend": [
-    "subscriber",
-    "flair8"
+    "subscriber"
   ],
   "AxiK_": [
     "subscriber"
@@ -100,8 +100,7 @@
     "flair3"
   ],
   "Bluepancho": [
-    "subscriber",
-    "flair1"
+    "subscriber"
   ],
   "BombJin": [
     "flair5"
@@ -222,6 +221,7 @@
   ],
   "Derver": [
     "subscriber",
+    "flair1",
     "flair4",
     "flair5"
   ],
@@ -305,6 +305,7 @@
   ],
   "Eclypse": [
     "subscriber",
+    "flair1",
     "flair5"
   ],
   "Elfonztm": [
@@ -339,6 +340,10 @@
     "flair1",
     "flair9"
   ],
+  "Fancysloth": [
+    "subscriber",
+    "flair1"
+  ],
   "Faron": [
     "subscriber",
     "flair1"
@@ -354,7 +359,7 @@
   ],
   "FinalFury": [
     "subscriber",
-    "flair9"
+    "flair3"
   ],
   "Firestarthe": [
     "subscriber"
@@ -371,6 +376,7 @@
   ],
   "G4mm4": [
     "subscriber",
+    "flair3",
     "flair9"
   ],
   "GOLDSOULTHEORY": [
@@ -381,7 +387,8 @@
     "subscriber"
   ],
   "Gen": [
-    "subscriber"
+    "subscriber",
+    "flair8"
   ],
   "Gertle": [
     "flair5"
@@ -436,6 +443,9 @@
     "subscriber",
     "flair9"
   ],
+  "Inope": [
+    "subscriber"
+  ],
   "Insanematt": [
     "subscriber"
   ],
@@ -445,6 +455,11 @@
   "J_YF": [
     "subscriber",
     "flair3"
+  ],
+  "Jatura": [
+    "subscriber",
+    "flair8",
+    "flair9"
   ],
   "Jewel_wheeled": [
     "subscriber",
@@ -522,6 +537,9 @@
   "Kurgeko": [
     "subscriber"
   ],
+  "Kuroneko": [
+    "subscriber"
+  ],
   "LAIN7": [
     "subscriber"
   ],
@@ -533,7 +551,8 @@
     "subscriber"
   ],
   "LauluSavon": [
-    "subscriber"
+    "subscriber",
+    "flair1"
   ],
   "LeEpicMemeXd": [
     "subscriber"
@@ -548,6 +567,10 @@
   "LoLDusty": [
     "subscriber",
     "flair9"
+  ],
+  "Logs": [
+    "subscriber",
+    "flair1"
   ],
   "LongSox": [
     "subscriber"
@@ -654,8 +677,12 @@
     "subscriber",
     "flair1"
   ],
+  "NeoKorean": [
+    "subscriber"
+  ],
   "Neonkitza": [
     "subscriber",
+    "flair1",
     "flair2"
   ],
   "Neverender33": [
@@ -731,6 +758,9 @@
     "subscriber",
     "flair9"
   ],
+  "Pashy": [
+    "subscriber"
+  ],
   "Pedguin": [
     "subscriber",
     "flair1"
@@ -785,6 +815,10 @@
     "flair1",
     "flair4"
   ],
+  "Ragecake": [
+    "subscriber",
+    "flair9"
+  ],
   "Randallthecloud": [
     "subscriber"
   ],
@@ -810,11 +844,9 @@
     "subscriber"
   ],
   "RightToBearArmsLOL": [
-    "subscriber",
     "moderator",
     "flair4",
-    "flair5",
-    "flair8"
+    "flair5"
   ],
   "Roodorph": [
     "subscriber"
@@ -854,6 +886,10 @@
   "SciZtho_YEE": [
     "subscriber"
   ],
+  "Scrum": [
+    "subscriber",
+    "flair8"
+  ],
   "Sealonark": [
     "subscriber"
   ],
@@ -877,7 +913,6 @@
   ],
   "ShawarmaFury": [
     "subscriber",
-    "flair1",
     "flair5"
   ],
   "Shirihs": [
@@ -908,7 +943,8 @@
     "subscriber"
   ],
   "SoConfuse": [
-    "subscriber"
+    "subscriber",
+    "flair8"
   ],
   "SolicitatingZebra": [
     "subscriber",
@@ -943,6 +979,9 @@
     "subscriber",
     "flair9"
   ],
+  "Stirfried": [
+    "subscriber"
+  ],
   "StoopidMonkey": [
     "subscriber",
     "flair9"
@@ -958,8 +997,15 @@
     "subscriber",
     "flair3"
   ],
+  "Stubbs89": [
+    "subscriber"
+  ],
   "Sufflelol": [
     "subscriber"
+  ],
+  "Summiz": [
+    "subscriber",
+    "flair1"
   ],
   "Susilo": [
     "subscriber"
@@ -968,6 +1014,9 @@
     "subscriber"
   ],
   "TBWolf": [
+    "subscriber"
+  ],
+  "TaeYeon": [
     "subscriber"
   ],
   "Tailsdarcy": [
@@ -988,6 +1037,9 @@
   "TehSlinky": [
     "subscriber",
     "flair9"
+  ],
+  "TekJansen": [
+    "subscriber"
   ],
   "Tekjansen01": [
     "subscriber",
@@ -1045,6 +1097,9 @@
   "Totorotron": [
     "subscriber"
   ],
+  "Turkletonphd": [
+    "subscriber"
+  ],
   "TypicalZealot": [
     "subscriber"
   ],
@@ -1059,6 +1114,9 @@
     "subscriber"
   ],
   "Viscosity13": [
+    "subscriber"
+  ],
+  "Vitaytay": [
     "subscriber"
   ],
   "Wanderano": [
@@ -1131,6 +1189,10 @@
     "flair5",
     "flair9"
   ],
+  "arabboi": [
+    "subscriber",
+    "flair1"
+  ],
   "bLidios": [
     "subscriber"
   ],
@@ -1145,6 +1207,9 @@
     "flair9"
   ],
   "bliutwo": [
+    "subscriber"
+  ],
+  "blushies": [
     "subscriber"
   ],
   "cOuOkieh": [
@@ -1206,6 +1271,10 @@
   "fr00bl3t": [
     "subscriber"
   ],
+  "getezdson": [
+    "subscriber",
+    "flair3"
+  ],
   "gianttoaster": [
     "subscriber",
     "flair1"
@@ -1235,8 +1304,7 @@
   "hephaestus": [
     "subscriber",
     "flair4",
-    "flair5",
-    "flair9"
+    "flair5"
   ],
   "iAxX23": [
     "subscriber"
@@ -1268,6 +1336,10 @@
   "king_of_suede": [
     "subscriber",
     "flair3"
+  ],
+  "larynx_pharynx": [
+    "subscriber",
+    "flair1"
   ],
   "littlebuster1": [
     "subscriber"
@@ -1329,6 +1401,9 @@
   "slicklikedat": [
     "subscriber"
   ],
+  "smogrA": [
+    "subscriber"
+  ],
   "spede": [
     "subscriber",
     "flair4"
@@ -1353,6 +1428,9 @@
     "protected"
   ],
   "technicallytexas": [
+    "subscriber"
+  ],
+  "toh_": [
     "subscriber"
   ],
   "uziSC": [
