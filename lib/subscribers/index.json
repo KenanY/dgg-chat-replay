@@ -3,8 +3,13 @@
     "subscriber",
     "flair3"
   ],
+  "4THOT": [
+    "subscriber",
+    "flair13"
+  ],
   "ADHD": [
-    "subscriber"
+    "subscriber",
+    "flair1"
   ],
   "ARRPEEGEEE": [
     "subscriber"
@@ -98,14 +103,17 @@
     "flair3"
   ],
   "Bluepancho": [
-    "subscriber"
+    "subscriber",
+    "flair13"
   ],
   "BombJin": [
     "flair5"
   ],
   "Bot": [
     "protected",
-    "bot"
+    "subscriber",
+    "bot",
+    "flair13"
   ],
   "BowlOfOrange": [
     "subscriber",
@@ -201,7 +209,8 @@
     "flair8"
   ],
   "Davehz": [
-    "subscriber"
+    "subscriber",
+    "flair13"
   ],
   "Deathcon92": [
     "subscriber",
@@ -212,18 +221,21 @@
     "flair8"
   ],
   "DerFaba": [
-    "subscriber"
+    "subscriber",
+    "flair13"
   ],
   "Derugo": [
-    "subscriber"
+    "subscriber",
+    "flair13"
   ],
   "Derver": [
-    "subscriber",
-    "flair1",
-    "flair4",
     "flair5"
   ],
   "Desert_doge": [
+    "subscriber",
+    "flair9"
+  ],
+  "Desmoronarse": [
     "subscriber",
     "flair9"
   ],
@@ -268,6 +280,10 @@
   "DownieDave": [
     "subscriber"
   ],
+  "Dragon": [
+    "subscriber",
+    "flair1"
+  ],
   "Drdubstep": [
     "subscriber",
     "flair9"
@@ -303,8 +319,8 @@
   ],
   "Eclypse": [
     "subscriber",
-    "flair3",
-    "flair5"
+    "flair4",
+    "flair8"
   ],
   "Elfonztm": [
     "subscriber"
@@ -350,10 +366,12 @@
     "flair1"
   ],
   "Fatal_wound": [
-    "protected",
     "subscriber",
-    "flair1",
-    "flair5"
+    "flair5",
+    "flair13"
+  ],
+  "Fate": [
+    "flair12"
   ],
   "Figgles": [
     "subscriber",
@@ -437,18 +455,20 @@
     "flair1"
   ],
   "Hillshire": [
-    "subscriber"
+    "subscriber",
+    "flair13"
   ],
   "Hobosamurai": [
     "subscriber",
-    "flair9"
+    "flair3"
   ],
   "HoneyBadgja": [
     "subscriber"
   ],
   "ILiedAboutCake": [
     "subscriber",
-    "flair5"
+    "flair5",
+    "flair13"
   ],
   "ImPrecedent": [
     "subscriber",
@@ -565,8 +585,13 @@
     "subscriber",
     "flair1"
   ],
+  "Lawlipoppins": [
+    "subscriber",
+    "flair8"
+  ],
   "LeEpicMemeXd": [
-    "subscriber"
+    "subscriber",
+    "flair13"
   ],
   "Lemmiwinks": [
     "subscriber",
@@ -581,7 +606,8 @@
   ],
   "Logs": [
     "subscriber",
-    "flair1"
+    "flair11",
+    "flair13"
   ],
   "LongSox": [
     "subscriber"
@@ -608,7 +634,6 @@
     "flair9"
   ],
   "Mannekino": [
-    "subscriber",
     "flair5"
   ],
   "Mardant": [
@@ -643,7 +668,8 @@
   ],
   "Mikecom32": [
     "subscriber",
-    "flair4"
+    "flair4",
+    "flair13"
   ],
   "Mockknizzle008": [
     "subscriber",
@@ -724,6 +750,20 @@
   "NovemberZzZ": [
     "subscriber"
   ],
+  "Nuubcakez": [
+    "subscriber",
+    "flair8",
+    "flair9"
+  ],
+  "OPbot": [
+    "subscriber",
+    "flair11",
+    "flair13"
+  ],
+  "OatMaker": [
+    "subscriber",
+    "flair13"
+  ],
   "OhSoLucky": [
     "subscriber",
     "flair9"
@@ -791,7 +831,7 @@
   ],
   "PolarBearFur": [
     "subscriber",
-    "flair1"
+    "flair13"
   ],
   "Polecat": [
     "subscriber",
@@ -834,6 +874,7 @@
   ],
   "PurpleCow": [
     "subscriber",
+    "flair1",
     "flair4"
   ],
   "Ragecake": [
@@ -853,6 +894,10 @@
   "RandomScrub2": [
     "subscriber",
     "flair9"
+  ],
+  "RandyRodPiper": [
+    "subscriber",
+    "flair8"
   ],
   "Raulington": [
     "subscriber",
@@ -993,6 +1038,10 @@
     "subscriber",
     "flair9"
   ],
+  "SteamEngine": [
+    "subscriber",
+    "flair13"
+  ],
   "Stefono": [
     "subscriber"
   ],
@@ -1035,7 +1084,8 @@
     "subscriber"
   ],
   "TBWolf": [
-    "subscriber"
+    "subscriber",
+    "flair8"
   ],
   "TaeYeon": [
     "subscriber"
@@ -1132,7 +1182,8 @@
     "subscriber"
   ],
   "Vaan99": [
-    "subscriber"
+    "subscriber",
+    "flair13"
   ],
   "Viscosity13": [
     "subscriber"
@@ -1335,7 +1386,8 @@
     "subscriber"
   ],
   "iNfy": [
-    "subscriber"
+    "subscriber",
+    "flair13"
   ],
   "iamcow": [
     "subscriber"
@@ -1390,7 +1442,8 @@
     "flair8"
   ],
   "obviousCake": [
-    "subscriber"
+    "subscriber",
+    "flair13"
   ],
   "oni7sch1": [
     "subscriber"
@@ -1400,6 +1453,10 @@
   ],
   "picklemancer": [
     "subscriber"
+  ],
+  "put_sagat_inChunli": [
+    "subscriber",
+    "flair13"
   ],
   "reeeeeeeee": [
     "subscriber",
@@ -1428,7 +1485,8 @@
   ],
   "spede": [
     "subscriber",
-    "flair4"
+    "flair4",
+    "flair13"
   ],
   "stank": [
     "subscriber"
@@ -1481,6 +1539,7 @@
   ],
   "xartemisx": [
     "subscriber",
+    "flair2",
     "flair9"
   ],
   "xuptupahc44": [
